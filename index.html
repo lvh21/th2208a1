@@ -389,6 +389,103 @@
     <!-- special section ends -->
 
     <!-- E-catalog -->
+    <section class="catalog" id="catalog">
+
+        <h1 class="heading">E-Cataloge</h1>
+    
+        <div class="box-container">
+    
+            <div class="box">
+                <img src="images/glaze-vitero.png" alt="">
+                <h3>Glazed Vitrified Tiles</h3>
+                <a href="cataloge/glazed-vitrified-tiles.pdf" target="_blank" class="btn">View</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/ceramic-tile.png" alt="">
+                <h3>Ceramic Tiles</h3>
+                <a href="cataloge/ceramic-tile.pdf" target="_blank" class="btn">View</a>
+            </div>
+    
+            <div class="box">
+                <img src="images/Polished vitrified .png" alt="">
+                <h3>Glazed Vitrified Tiles</h3>
+                <a href="cataloge/Catalogue Generale.pdf" target="_blank" class="btn">View</a>
+            </div>
+    
+        </div>
+    </section>
+
+    
+<section class="contact" id="contact">
+    <h1 class="heading"> contact us </h1>
+    <div class="row">
+        <iframe class="map"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin"
+            allowfullscreen="" loading="lazy"></iframe>
+        <form action="">
+            <h3>get in touch</h3>
+            <div class="inputBox">
+                <span class="fas fa-user"></span>
+                <input type="text" placeholder="name">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-envelope"></span>
+                <input type="email" placeholder="email">
+            </div>
+            <div class="inputBox">
+                <span class="fas fa-phone"></span>
+                <input type="number" placeholder="number">
+            </div>
+            <input type="submit" value="contact now" class="btn">
+        </form>
+    </div>
+</section>
+
+
+<section class="blogs" id="blogs">
+
+    <h1 class="heading"> Expert Corner </h1>
+
+    <div id="tile-expert-corner">
+        <h2>Tile Expert Corner</h2>
+        <p>Welcome to our Tile Expert Corner, where you'll find a range of resources and expert advice to help you
+            make informed decisions when selecting and installing tile.</p>
+    </div>
+
+    <div id="tile-expert-corner-content">
+        <h3>Blogs</h3>
+        <p>The Tile Shop: This website has a dedicated "Inspiration & Education" section that includes a variety of
+            resources, including a blog with tips and advice from tile experts, a tile calculator to help you
+            determine how much tile you'll need for your project, and a variety of educational videos on topics such
+            as how to install different types of tile.</p>
+        <h3>Educational Videos</h3>
+        <h3>Tile Calculator</h3>
+        <form id='draw-form'>
+            <fieldset>
+                <legend>floor (cm)</legend>
+                <input type='number' name='draw-area-width' step='1' min='100' placeholder='Largura' required>
+                <input type='number' name='draw-area-height' step='1' min='100' placeholder='Altura' required>
+            </fieldset>
+            <fieldset>
+                <legend>tiles (cm)</legend>
+                <input type='number' name='draw-tile-width' step='1' min='10' placeholder='Largura' required>
+                <input type='number' name='draw-tile-height' step='1' min='10' placeholder='Altura' required>
+                <input type='number' value='1' name='draw-tile-space' step='1' min='1' placeholder='Espaçamento' required>
+            </fieldset>
+            <fieldset>
+                <legend>calc</legend>
+                <button type='submit' name='draw-calc'>Calc</button>
+                <button type='button' name='draw-clear'>reset</button>
+            </fieldset>
+        </form>
+    
+        <div>
+            <canvas id='draw-canvas'>Seu navegador não suporta a tag &lt;CANVAS&gt;.</canvas>
+        </div>
+    </div>
+</section>
+
  
     <!-- footer section starts  -->
 
