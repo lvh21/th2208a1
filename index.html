@@ -7,6 +7,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Tiles Shop</title>
 
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
     <!-- font awesome cdn link  -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
@@ -44,7 +47,7 @@
         <div class="content">
             <h3>LeHung Tiles</h3>
             <p>The Ability To Kill Harmful Bacteria On The Surface Of Cera Tiles Up To 99,99%</p>
-            <a href="https://www.facebook.com/messages/t/100056903587085" target="_blank" class="btn">CONTACT US</a>
+            <a href="https://www.facebook.com/messages/t/100056903587085" target="_blank" class="button">CONTACT US</a>
         </div>
 
     </section>
@@ -70,7 +73,7 @@
                     installed with confidence by our team of professionals.</p>
                 <p>Thank you for choosing Wall Tiles Shop. We look forward to working with you and helping you transform
                     your space with beautiful, durable tiles.</p>
-                <a href="#" class="btn">learn more</a>
+                <a href="#" class="button">learn more</a>
             </div>
 
         </div>
@@ -83,269 +86,262 @@
 
         <h1 class="heading"> wall tiles</h1>
 
-        <ul id="walltile-types">
-            <li data-type="bathroom" class="selected">Bathroom wall tiles</li>
-            <li data-type="kitchen">Kitchen wall tiles</li>
-            <li data-type="outdoor">Outdoor wall tiles</li>
-            <li data-type="living">Living room tiles</li>
-            <li data-type="bedroom">Bedroom tiles</li>
-            <li data-type="commercial">Commercial spaces tiles</li>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-bathroomw-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-bathroomw" type="button" role="tab" aria-controls="pills-bathroomw"
+                    aria-selected="true">Bathroom floor tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-kitchenw-tab" data-bs-toggle="pill" data-bs-target="#pills-kitchenw"
+                    type="button" role="tab" aria-controls="pills-kitchenw" aria-selected="false">Kitchen floor
+                    tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-outdoorw-tab" data-bs-toggle="pill" data-bs-target="#pills-outdoorw"
+                    type="button" role="tab" aria-controls="pills-outdoorw" aria-selected="false">Outdoor floor
+                    tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-livingw-tab" data-bs-toggle="pill" data-bs-target="#pills-livingw"
+                    type="button" role="tab" aria-controls="pills-livingw" aria-selected="false">Living room
+                    tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-bedroomw-tab" data-bs-toggle="pill" data-bs-target="#pills-bedroomw"
+                    type="button" role="tab" aria-controls="pills-bedroomw" aria-selected="false">Bedroom tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-commercialw-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-commercialw" type="button" role="tab" aria-controls="pills-commercialw"
+                    aria-selected="false">Commercial spaces tiles</button>
+            </li>
         </ul>
-        <!-- Container for tile images -->
-        <div id="tile-container">
-            <!-- Bathroom tiles -->
-            <div class="tiles bathroom">
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-bathroomw" role="tabpanel"
+                aria-labelledby="pills-bathroomw-tab" tabindex="0">
+            <div class="box-container">
+                <div class="box">
+                    <a href="./cataloge/Catalogue Generale.pdf" target="_blank">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                    </a>
+                    <div class="prime">
+                        <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                        <h4>$8,59</h4>
+                        <a href="" class="button">Add</a>
+                    </div>
+                </div>
                 <div class="box">
                     <img src="images/bathroom-wall-1.png" alt="">
-                    <h3>Frisco Grey Porcelain</h3>
-                    <div class="price">$10.69 <span>16.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <div class="prime">
+                        <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                        <h4>$8,59</h4>
+                        <a href="" class="button">Add</a>
+                    </div>
                 </div>
-
                 <div class="box">
-                    <img src="images/bathroom-wall-2.png" alt="">
-                    <h3>Savannah Antique Porcelain</h3>
-                    <div class="price">$10.69 <span>16.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <img src="images/bathroom-wall-1.png" alt="">
+                    <div class="prime">
+                        <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                        <h4>$8,59</h4>
+                        <a href="" class="button">Add</a>
+                    </div>
                 </div>
-
                 <div class="box">
-                    <img src="images/bathroom-wall-3.png" alt="">
-                    <h3>Calacutta Bianco Gloss Porcelain </h3>
-                    <div class="price">$7.59 <span>12.49</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/bathroom-wall-4.png" alt="">
-                    <h3>Burma Grafito Porcelain</h3>
-                    <div class="price">$8.09 <span>14.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/bathroom-wall-5.png" alt="">
-                    <h3>Umbria White Matte Porcelain</h3>
-                    <div class="price">$7.89 <span>12.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/bathroom-wall-6.png" alt="">
-                    <h3>Sofia Grey Porcelain</h3>
-                    <div class="price">$9.19 <span>14.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+                    <img src="images/bathroom-wall-1.png" alt="">
+                    <div class="prime">
+                        <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                        <h4>$8,59</h4>
+                        <a href="" class="button">Add</a>
+                    </div>
                 </div>
             </div>
-            <!-- Kitchen tiles -->
-            <div class="tiles kitchen">
-                <div class="box">
-                    <img src="images/kitchen-wall-1.png" alt="">
-                    <h3>Regent Bianco</h3>
-                    <div class="price">$5.29<span>10.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/kitchen-wall-2.png" alt="">
-                    <h3>Retro Lino</h3>
-                    <div class="price">$13.89 <span>18.69</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/kitchen-wall-3.png" alt="">
-                    <h3>Bulevar White</h3>
-                    <div class="price">$11.29 <span>16.49</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/kitchen-wall-4.png" alt="">
-                    <h3>Imperial Bianco Gloss</h3>
-                    <div class="price">$6.99 <span>10.29</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-            </div>
-            <!-- Outdoor tiles -->
-            <div class="tiles outdoor">
-
-                <div class="box">
-                    <img src="images/outdoor-wall-1.png" alt="">
-                    <h3>Antigua Beige Country</h3>
-                    <div class="price">$10.49 <span>14.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-2.png" alt="">
-                    <h3>Aspen Beige Split Face</h3>
-                    <div class="price">$7.99 <span>13.49</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-3.png" alt="">
-                    <h3>Aspen Black Split Face Slate</h3>
-                    <div class="price">$7.49 <span>13.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-4.png" alt="">
-                    <h3>Aspen Grey Split Face</h3>
-                    <div class="price">$7.34 <span>13.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-5.png" alt="">
-                    <h3>Bali Tael</h3>
-                    <div class="price">$9.79 <span>14.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-6.png" alt="">
-                    <h3>Blue Zellige</h3>
-                    <div class="price">$12.34 <span>17.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-7.png" alt="">
-                    <h3>Delta Black Triangle</h3>
-                    <div class="price">$12.99 <span>18.09</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/outdoor-wall-8.png" alt="">
-                    <h3>Dorset Diamond</h3>
-                    <div class="price">$5.59 <span>9.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-
-
 
             </div>
-            <!-- Living room tiles -->
-            <div class="tiles living">
-                <div class="box">
-                    <img src="images/product-1.png" alt="">
-                    <h3>Black Patterned</h3>
-                    <div class="price">$33.34 <span>40.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+            <div class="tab-pane fade" id="pills-kitchenw" role="tabpanel" aria-labelledby="pills-kitchenw-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="box">
-                    <img src="images/product-2.png" alt="">
-                    <h3>Silver Patterned</h3>
-                    <div class="price">$33.34 <span>42.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-3.png" alt="">
-                    <h3>Tetra Matt White</h3>
-                    <div class="price">$53.48 <span>60.49</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-4.png" alt="">
-                    <h3>Tetra Mesh White</h3>
-                    <div class="price">$44.54 <span>49.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-5.png" alt="">
-                    <h3>Tetra Grid</h3>
-                    <div class="price">$44.54 <span>52.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-
             </div>
-            <!-- Bedroom tiles -->
-            <div class="tiles bedroom">
-                <div class="box">
-                    <img src="images/product-1.png" alt="">
-                    <h3>Black Patterned</h3>
-                    <div class="price">$33.34 <span>40.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+            <div class="tab-pane fade" id="pills-outdoorw" role="tabpanel" aria-labelledby="pills-outdoorw-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="box">
-                    <img src="images/product-2.png" alt="">
-                    <h3>Silver Patterned</h3>
-                    <div class="price">$33.34 <span>42.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-3.png" alt="">
-                    <h3>Tetra Matt White</h3>
-                    <div class="price">$53.48 <span>60.49</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-4.png" alt="">
-                    <h3>Tetra Mesh White</h3>
-                    <div class="price">$44.54 <span>49.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-5.png" alt="">
-                    <h3>Tetra Grid</h3>
-                    <div class="price">$44.54 <span>52.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-
             </div>
-            <!-- Commercial tiles -->
-            <div class="tiles commercial">
-                <div class="box">
-                    <img src="images/product-1.png" alt="">
-                    <h3>Black Patterned</h3>
-                    <div class="price">$33.34 <span>40.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+            <div class="tab-pane fade" id="pills-livingw" role="tabpanel" aria-labelledby="pills-livingw-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="box">
-                    <img src="images/product-2.png" alt="">
-                    <h3>Silver Patterned</h3>
-                    <div class="price">$33.34 <span>42.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="tab-pane fade" id="pills-bedroomw" role="tabpanel" aria-labelledby="pills-bedroomw-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="box">
-                    <img src="images/product-3.png" alt="">
-                    <h3>Tetra Matt White</h3>
-                    <div class="price">$53.48 <span>60.49</span></div>
-                    <a href="#" class="btn">add to cart</a>
+            </div>
+            <div class="tab-pane fade" id="pills-commercialw" role="tabpanel" aria-labelledby="pills-commercialw-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
                 </div>
-
-                <div class="box">
-                    <img src="images/product-4.png" alt="">
-                    <h3>Tetra Mesh White</h3>
-                    <div class="price">$44.54 <span>49.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-                <div class="box">
-                    <img src="images/product-5.png" alt="">
-                    <h3>Tetra Grid</h3>
-                    <div class="price">$44.54 <span>52.99</span></div>
-                    <a href="#" class="btn">add to cart</a>
-                </div>
-
-
             </div>
         </div>
 
@@ -356,17 +352,263 @@
     <section class="floor" id="floor">
 
         <h1 class="heading"> Floor tiles</h1>
-
-        <ul id="floortile-types">
-            <li data-type="bathroom" class="selected">Bathroom floor tiles</li>
-            <li data-type="kitchen">Kitchen floor tiles</li>
-            <li data-type="outdoor">Outdoor floor tiles</li>
-            <li data-type="living">Living room tiles</li>
-            <li data-type="bedroom">Bedroom tiles</li>
-            <li data-type="commercial">Commercial spaces tiles</li>
+        <!-- Nav tabs -->
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-bathroomf-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-bathroomf" type="button" role="tab" aria-controls="pills-bathroomf"
+                    aria-selected="true">Bathroom floor tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-kitchenf-tab" data-bs-toggle="pill" data-bs-target="#pills-kitchenf"
+                    type="button" role="tab" aria-controls="pills-kitchenf" aria-selected="false">Kitchen floor
+                    tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-outdoorf-tab" data-bs-toggle="pill" data-bs-target="#pills-outdoorf"
+                    type="button" role="tab" aria-controls="pills-outdoorf" aria-selected="false">Outdoor floor
+                    tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-livingf-tab" data-bs-toggle="pill" data-bs-target="#pills-livingf"
+                    type="button" role="tab" aria-controls="pills-livingf" aria-selected="false">Living room
+                    tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-bedroomf-tab" data-bs-toggle="pill" data-bs-target="#pills-bedroomf"
+                    type="button" role="tab" aria-controls="pills-bedroomf" aria-selected="false">Bedroom tiles</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-commercialf-tab" data-bs-toggle="pill"
+                    data-bs-target="#pills-commercialf" type="button" role="tab" aria-controls="pills-commercialf"
+                    aria-selected="false">Commercial spaces tiles</button>
+            </li>
         </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-bathroomf" role="tabpanel"
+                aria-labelledby="pills-bathroomf-tab" tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-kitchenf" role="tabpanel" aria-labelledby="pills-kitchenf-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-outdoorf" role="tabpanel" aria-labelledby="pills-outdoorf-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-livingf" role="tabpanel" aria-labelledby="pills-livingf-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-bedroomf" role="tabpanel" aria-labelledby="pills-bedroomf-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-commercialf" role="tabpanel" aria-labelledby="pills-commercialf-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-        <!-- Container for tile images -->
 
 
 
@@ -378,115 +620,247 @@
 
         <h1 class="heading"> Special Tiles </h1>
 
-        <ul id="specialtile-types">
-            <li data-type="germ" class="selected">Germ free</li>
-            <li data-type="Tac">Tac</li>
-            <li data-type="antistatic">Anti static</li>
-            <li data-type="coolroof">Cool roof</li>
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-Germ-tab" data-bs-toggle="pill" data-bs-target="#pills-Germ"
+                    type="button" role="tab" aria-controls="pills-Germ" aria-selected="true">Germ free</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Tac-tab" data-bs-toggle="pill" data-bs-target="#pills-Tac"
+                    type="button" role="tab" aria-controls="pills-Tac" aria-selected="false">Tac</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Anti-tab" data-bs-toggle="pill" data-bs-target="#pills-Anti"
+                    type="button" role="tab" aria-controls="pills-Anti" aria-selected="false">Anti static</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-Cool-tab" data-bs-toggle="pill" data-bs-target="#pills-Cool"
+                    type="button" role="tab" aria-controls="pills-Cool" aria-selected="false">Cool roof</button>
+            </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+            <div class="tab-pane fade show active" id="pills-Germ" role="tabpanel" aria-labelledby="pills-Germ-tab"
+                tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-Tac" role="tabpanel" aria-labelledby="pills-Tac-tab" tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-Anti" role="tabpanel" aria-labelledby="pills-Anti-tab" tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="tab-pane fade" id="pills-Cool" role="tabpanel" aria-labelledby="pills-Cool-tab" tabindex="0">
+                <div class="box-container">
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <img src="images/bathroom-wall-1.png" alt="">
+                        <div class="prime">
+                            <h4><b>Calacutta Bianco Gloss Porcelain</b></h4>
+                            <h4>$8,59</h4>
+                            <a href="" class="button">Add</a>
+                        </div>
+                    </div>
+                </div>    
+            </div>
+        </div>
 
     </section>
 
     <!-- special section ends -->
 
-    <!-- E-catalog -->
-    <section class="catalog" id="catalog">
-
-        <h1 class="heading">E-Cataloge</h1>
-    
-        <div class="box-container">
-    
-            <div class="box">
-                <img src="images/glaze-vitero.png" alt="">
-                <h3>Glazed Vitrified Tiles</h3>
-                <a href="cataloge/glazed-vitrified-tiles.pdf" target="_blank" class="btn">View</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/ceramic-tile.png" alt="">
-                <h3>Ceramic Tiles</h3>
-                <a href="cataloge/ceramic-tile.pdf" target="_blank" class="btn">View</a>
-            </div>
-    
-            <div class="box">
-                <img src="images/Polished vitrified .png" alt="">
-                <h3>Glazed Vitrified Tiles</h3>
-                <a href="cataloge/Catalogue Generale.pdf" target="_blank" class="btn">View</a>
-            </div>
-    
+    <section class="contact" id="contact">
+        <h1 class="heading"> contact us </h1>
+        <div class="row">
+            <iframe class="map"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin"
+                allowfullscreen="" loading="lazy"></iframe>
+            <form action="">
+                <h3>get in touch</h3>
+                <div class="inputBox">
+                    <span class="fas fa-user"></span>
+                    <input type="text" placeholder="name">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-envelope"></span>
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <span class="fas fa-phone"></span>
+                    <input type="number" placeholder="number">
+                </div>
+                <input type="submit" value="contact now" class="btn">
+            </form>
         </div>
     </section>
 
-    
-<section class="contact" id="contact">
-    <h1 class="heading"> contact us </h1>
-    <div class="row">
-        <iframe class="map"
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d30153.788252261566!2d72.82321484621745!3d19.141690214227783!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b63aceef0c69%3A0x2aa80cf2287dfa3b!2sJogeshwari%20West%2C%20Mumbai%2C%20Maharashtra%20400047!5e0!3m2!1sen!2sin!4v1629452077891!5m2!1sen!2sin"
-            allowfullscreen="" loading="lazy"></iframe>
-        <form action="">
-            <h3>get in touch</h3>
-            <div class="inputBox">
-                <span class="fas fa-user"></span>
-                <input type="text" placeholder="name">
-            </div>
-            <div class="inputBox">
-                <span class="fas fa-envelope"></span>
-                <input type="email" placeholder="email">
-            </div>
-            <div class="inputBox">
-                <span class="fas fa-phone"></span>
-                <input type="number" placeholder="number">
-            </div>
-            <input type="submit" value="contact now" class="btn">
-        </form>
-    </div>
-</section>
 
+    <section class="blogs" id="blogs">
 
-<section class="blogs" id="blogs">
+        <h1 class="heading"> Expert Corner </h1>
 
-    <h1 class="heading"> Expert Corner </h1>
-
-    <div id="tile-expert-corner">
-        <h2>Tile Expert Corner</h2>
-        <p>Welcome to our Tile Expert Corner, where you'll find a range of resources and expert advice to help you
-            make informed decisions when selecting and installing tile.</p>
-    </div>
-
-    <div id="tile-expert-corner-content">
-        <h3>Blogs</h3>
-        <p>The Tile Shop: This website has a dedicated "Inspiration & Education" section that includes a variety of
-            resources, including a blog with tips and advice from tile experts, a tile calculator to help you
-            determine how much tile you'll need for your project, and a variety of educational videos on topics such
-            as how to install different types of tile.</p>
-        <h3>Educational Videos</h3>
-        <h3>Tile Calculator</h3>
-        <form id='draw-form'>
-            <fieldset>
-                <legend>floor (cm)</legend>
-                <input type='number' name='draw-area-width' step='1' min='100' placeholder='Largura' required>
-                <input type='number' name='draw-area-height' step='1' min='100' placeholder='Altura' required>
-            </fieldset>
-            <fieldset>
-                <legend>tiles (cm)</legend>
-                <input type='number' name='draw-tile-width' step='1' min='10' placeholder='Largura' required>
-                <input type='number' name='draw-tile-height' step='1' min='10' placeholder='Altura' required>
-                <input type='number' value='1' name='draw-tile-space' step='1' min='1' placeholder='Espaçamento' required>
-            </fieldset>
-            <fieldset>
-                <legend>calc</legend>
-                <button type='submit' name='draw-calc'>Calc</button>
-                <button type='button' name='draw-clear'>reset</button>
-            </fieldset>
-        </form>
-    
-        <div>
-            <canvas id='draw-canvas'>Seu navegador não suporta a tag &lt;CANVAS&gt;.</canvas>
+        <div id="tile-expert-corner">
+            <h2>Tile Expert Corner</h2>
+            <p>Welcome to our Tile Expert Corner, where you'll find a range of resources and expert advice to help you
+                make informed decisions when selecting and installing tile.</p>
         </div>
-    </div>
-</section>
 
- 
+        <div id="tile-expert-corner-content">
+            <h3>Blogs</h3>
+            <p>The Tile Shop: This website has a dedicated "Inspiration & Education" section that includes a variety of
+                resources, including a blog with tips and advice from tile experts, a tile calculator to help you
+                determine how much tile you'll need for your project, and a variety of educational videos on topics such
+                as how to install different types of tile.</p>
+            <h3>Educational Videos</h3>
+            <h3>Tile Calculator</h3>
+            <form id='draw-form'>
+                <fieldset>
+                    <legend>floor (cm)</legend>
+                    <input type='number' name='draw-area-width' step='1' min='100' placeholder='Largura' required>
+                    <input type='number' name='draw-area-height' step='1' min='100' placeholder='Altura' required>
+                </fieldset>
+                <fieldset>
+                    <legend>tiles (cm)</legend>
+                    <input type='number' name='draw-tile-width' step='1' min='10' placeholder='Largura' required>
+                    <input type='number' name='draw-tile-height' step='1' min='10' placeholder='Altura' required>
+                    <input type='number' value='1' name='draw-tile-space' step='1' min='1' placeholder='Espaçamento'
+                        required>
+                </fieldset>
+                <fieldset>
+                    <legend>calc</legend>
+                    <button type='submit' name='draw-calc'>Calc</button>
+                    <button type='button' name='draw-clear'>reset</button>
+                </fieldset>
+            </form>
+
+            <div>
+                <canvas id='draw-canvas'>Seu navegador não suporta a tag &lt;CANVAS&gt;.</canvas>
+            </div>
+        </div>
+    </section>
+
+
     <!-- footer section starts  -->
 
     <section class="footer">
@@ -517,7 +891,9 @@
 
     <!-- custom js file link  -->
     <script src="js/script.js"></script>
-
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>

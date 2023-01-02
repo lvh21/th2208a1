@@ -41,7 +41,12 @@ section {
   text-transform: uppercase;
 }
 
-.btn {
+.box-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.button {
   margin-top: 1rem;
   display: inline-block;
   padding: 0.9rem 3rem;
@@ -51,7 +56,7 @@ section {
   cursor: pointer;
 }
 
-.btn:hover {
+.button:hover {
   letter-spacing: 0.2rem;
 }
 
@@ -152,89 +157,134 @@ section {
   padding: 1rem 0;
   line-height: 1.8;
 }
-
-#walltile-types,
-#floortile-types,
-#specialtile-types{
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
-  color: #fff;
-  text-align: center;
-  font-weight: normal;
-  font-size: 2rem;
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-
-#walltile-types li,
-#floortile-types li,
-#specialtile-types li {
-  cursor: pointer;
-  padding: 8px;
-  border: 1px solid #ccc;
-  margin-bottom: 2rem;
-}
-
-#walltile-types li:hover,
-#floortile-types li:hover,
-#specialtile-types li:hover{
+.box {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 300px;
   background-color: #ccc;
 }
 
-#walltile-types li.selected,
-#floortile-types li.selected,
-#specialtile-types li.selected {
-  background-color: #d3ad7f;
+.box:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 
-.tiles {
-  display: none;
+.box img{
+  width: 100%;
+  padding: 20px;
 }
 
-.tiles.selected {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+.box .prime {
+  padding: 2px 16px;
 }
-.tiles.selected .box {
+
+.catalog .box-container .box {
   padding: 5rem;
   text-align: center;
   border: 0.1rem solid rgba(255, 255, 255, 0.3);
 }
-.tiles.selected .box img {
-  width: 20rem;
+
+.catalog .box-container .box img {
+  height: 15rem;
 }
-.tiles.selected .box h3 {
+
+.catalog .box-container .box h3 {
   color: #fff;
   font-size: 2rem;
   padding: 1rem 0;
 }
-.tiles.selected .box .price {
-  color: #fff;
-  font-size: 2.5rem;
-  padding: 0.5rem 0;
-}
-
-.tiles.selected .box .price span {
-  font-size: 1.5rem;
-  text-decoration: line-through;
-  font-weight: lighter;
-}
-
-.tiles.selected .box:hover {
+.catalog .box-container .box:hover {
   background: #fff;
 }
 
-.tiles.selected .box:hover > * {
+.catalog .box-container .box:hover > * {
   color: #13131a;
 }
 
-.catalog .box-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
-  gap: 1.5rem;
+.contact .row {
+  display: flex;
+  background: #13131a;
+  flex-wrap: wrap;
+  gap: 1rem;
 }
+
+.contact .row .map {
+  flex: 1 1 45rem;
+  width: 100%;
+  object-fit: cover;
+}
+
+.contact .row form {
+  flex: 1 1 45rem;
+  padding: 5rem 2rem;
+  text-align: center;
+}
+
+.contact .row form h3 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  color: #fff;
+}
+
+.contact .row form .inputBox {
+  display: flex;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  background: #010103;
+  border: 0.1rem solid rgba(255, 255, 255, 0.3);
+}
+
+.contact .row form .inputBox span {
+  color: #fff;
+  font-size: 2rem;
+  padding-left: 2rem;
+}
+
+.contact .row form .inputBox input {
+  width: 100%;
+  padding: 2rem;
+  font-size: 1.7rem;
+  color: #fff;
+  text-transform: none;
+  background: none;
+}
+
+#tile-expert-corner {
+    background-color: #f0f0f0;
+    padding: 20px;
+  }
+  #tile-expert-corner h2 {
+    font-size: 24px;
+    text-align: center;
+  }
+  #tile-expert-corner p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin: 0 auto;
+    max-width: 800px;
+    text-align: center;
+  }
+  #tile-expert-corner-content {
+    margin: 20px;
+  }
+  #tile-expert-corner-content h3 {
+    font-size: 3rem;
+    color: #d3ad7f;
+    text-align: center;
+  }
+  #tile-expert-corner-content p {
+    font-size: 2rem;
+    color: #ccc;
+    text-align: center;
+    padding: 20px 40px;
+  }
+  #tile-expert-corner-content video{
+    width: 50rem;
+    margin-left: 50%;
+    transform: translate(-50%);
+    padding-top: 20px;
+  }
+
 
 .footer {
   background: #13131a;
